@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">The Aark Wars</string>
+    <string name="network_error">Please Check Your Network Connection and Try Again</string>
+    <string name="unexpected_error">Unexpected error occurred, please try Again</string>
+    <string name="loading">Please wait…</string>
+    <string name="no_data">Data Not Available</string>
+    <string name="try_again">Try Again</string>
+    <string name="name">Name : </string>
+    <string name="height">Height (mtr) : </string>
+    <string name="mass">Mass (kg) : </string>
+    <string name="created">Created : </string>
+    <string name="star_wars_characters">Star Wars Characters</string>
+</resources>
