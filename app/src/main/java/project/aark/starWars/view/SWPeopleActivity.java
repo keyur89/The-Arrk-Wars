@@ -32,6 +32,7 @@ import project.aark.ServiceCall.SWDetails.SWDetailsSuccessEvent;
 import project.aark.Utils.FontChangeCrawler;
 import project.aark.Utils.Injector;
 import project.aark.Utils.NetworkUtils;
+import project.aark.Utils.UtilsHelper;
 import project.aark.common.BaseActivity;
 import project.aark.dagger.DaggerInjector;
 import project.aark.starWars.contract.OnItemClickListener;
@@ -71,6 +72,8 @@ public class SWPeopleActivity extends BaseActivity implements SWPeopleProvider, 
         apiManager = new ApiManager();
         bus = Injector.provideEventBus();
         progressDialog = new ProgressDialog(this);
+
+        UtilsHelper.reverseString("This is a line");
 
         setupActionbar();
 
